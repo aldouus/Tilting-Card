@@ -1,0 +1,14 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "main": "src/index.html",
+    "scripts": {
+        "sass-dev": "sass --watch --update --style=expanded src/assets/scss:src/assets/css",
+        "sass-prod": "sass --no-source-map --style=compressed src/assets/scss:src/assets/css",
+        "sync": "browser-sync start --server src --files src"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.29.3",
+        "sass": "^1.69.5"
+    }
+}
