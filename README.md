@@ -20,4 +20,5 @@ Start browsersync server
  
 ### Screenshots
 
-In the works
+<img src="src/assets/images/screenshots/straight.png" width="60%">
+<img src="src/assets/images/screenshots/tilted.png" width="60%">
